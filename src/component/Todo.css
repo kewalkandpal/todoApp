@@ -1,0 +1,25 @@
+.input_box{
+    width:280px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(169, 167, 167);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  .input_box input{
+    border: none;
+    outline: none;
+    padding:10px;
+    flex: 1;
+  }
+  .input_box .btn{
+    padding:10px;
+    border:none;
+    cursor: pointer;
+    transition: 0.8 linear;
+  }
+  .input_box .btn:hover{
+   background-color: rgb(200, 197, 197);
+  
+  }

@@ -1,0 +1,37 @@
+.all_todo{
+    width:280px;
+    height: auto;
+}
+.todo_list{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border:1px solid rgb(186, 182, 182);
+    border-radius: 5px;
+    margin-top: 6px;
+    padding: 10px;
+}
+.todo_list:hover:nth-child(even){
+    background-color: rgb(201, 250, 175);
+}
+.todo_list input{
+    accent-color: green;
+    cursor: pointer;
+}
+.todo_list label{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    flex: 1;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+.todo_list label::first-letter{
+    text-transform: capitalize;
+}
+.add_line{
+    text-decoration: line-through;
+}
+.todo_list span{
+    cursor: pointer;
+}
